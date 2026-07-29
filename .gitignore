@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+.venv/
+
+# Environment
+.env
+
+# Output
+output/
+
+# Cache
+cache/
+
+# Logs
+logs/
+
+# VSCode
+.vscode/settings.json
+
+# Temp
+tmp/
