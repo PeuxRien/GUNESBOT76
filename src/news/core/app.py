@@ -1,5 +1,4 @@
 from src.core.banner import banner
-
 from src.core.logger.logger import Logger
 
 from src.news.core.engine import NewsEngine
@@ -11,7 +10,7 @@ class OdinApp:
 
         banner()
 
-        Logger.info("Loading News Engine...")
+        Logger.info("Loading News Engine")
 
         engine = NewsEngine()
 
@@ -21,16 +20,14 @@ class OdinApp:
 
         print("=" * 60)
 
-        print(f"TOTAL NEWS : {len(news)}")
-
-        print("=" * 60)
+        print(f"Toplam Haber: {len(news)}")
 
         print()
 
-        for item in news:
+        for item in news[:10]:
 
-            print(item)
+            print("-", item["title"])
 
         print()
 
-        Logger.success("ODIN Finished Successfully")
+        Logger.info("Done.")

@@ -1,11 +1,15 @@
-APP_NAME = "ODIN AI"
+from dataclasses import dataclass
 
-VERSION = "0.0.1"
 
-AUTHOR = "Arda"
+@dataclass(frozen=True)
+class AppConfig:
+    APP_NAME = "ODIN AI"
+    VERSION = "0.0.2"
 
-LANGUAGE = "de"
+    DEFAULT_LANGUAGE = "de"
 
-DEBUG = True
+    DEFAULT_VIDEO_DURATION = 45
 
-TIMEZONE = "Europe/Berlin"
+    DEBUG = True
+
+    AUTHOR = "Arda"

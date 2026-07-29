@@ -1,0 +1,21 @@
+HOT_KEYWORDS = {
+    "gta": 30,
+    "gta 6": 100,
+    "rockstar": 25,
+    "playstation": 15,
+    "xbox": 15,
+    "steam": 10,
+    "fortnite": 20,
+    "call of duty": 25,
+    "battlefield": 25,
+    "ea": 15,
+    "fc": 15,
+    "fifa": 20,
+    "minecraft": 15,
+    "nintendo": 15,
+    "switch": 15,
+    "resident evil": 20,
+    "silent hill": 20,
+    "elden ring": 25,
+    "cyberpunk": 20
+}
